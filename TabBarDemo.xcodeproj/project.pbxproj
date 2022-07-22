@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C382F7D288AB5A000100827 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C382F7C288AB5A000100827 /* CategoryCell.swift */; };
+		1C382F7F288AD16300100827 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C382F7E288AD16300100827 /* OrderCell.swift */; };
 		1CD41A3D288A908300C909F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A3C288A908300C909F8 /* AppDelegate.swift */; };
 		1CD41A3F288A908300C909F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A3E288A908300C909F8 /* SceneDelegate.swift */; };
 		1CD41A41288A908300C909F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A40288A908300C909F8 /* ViewController.swift */; };
 		1CD41A44288A908300C909F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD41A42288A908300C909F8 /* Main.storyboard */; };
 		1CD41A46288A908400C909F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD41A45288A908400C909F8 /* Assets.xcassets */; };
 		1CD41A49288A908400C909F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD41A47288A908400C909F8 /* LaunchScreen.storyboard */; };
+		1CD41A51288A93BF00C909F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A50288A93BF00C909F8 /* HomeViewController.swift */; };
+		1CD41A53288A93D200C909F8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A52288A93D200C909F8 /* CategoryViewController.swift */; };
+		1CD41A55288A93E500C909F8 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A54288A93E500C909F8 /* OrderViewController.swift */; };
+		1CD41A57288A93F000C909F8 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD41A56288A93F000C909F8 /* AccountViewController.swift */; };
+		1CFA88B3288B38010072B991 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA88B2288B38010072B991 /* AccountCell.swift */; };
+		1CFA88B5288B3B510072B991 /* ProfileOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA88B4288B3B510072B991 /* ProfileOrderCell.swift */; };
+		1CFA88B7288B44A20072B991 /* ProfileOrderCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA88B6288B44A20072B991 /* ProfileOrderCellThree.swift */; };
+		1CFA88B9288B45220072B991 /* ProfileOrderCellFourth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA88B8288B45220072B991 /* ProfileOrderCellFourth.swift */; };
+		1CFA88BB288B47D40072B991 /* HelpDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA88BA288B47D40072B991 /* HelpDetailsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C382F7C288AB5A000100827 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		1C382F7E288AD16300100827 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		1CD41A39288A908300C909F8 /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD41A3C288A908300C909F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CD41A3E288A908300C909F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,15 @@
 		1CD41A45288A908400C909F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD41A48288A908400C909F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD41A4A288A908400C909F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD41A50288A93BF00C909F8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1CD41A52288A93D200C909F8 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		1CD41A54288A93E500C909F8 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		1CD41A56288A93F000C909F8 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1CFA88B2288B38010072B991 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		1CFA88B4288B3B510072B991 /* ProfileOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOrderCell.swift; sourceTree = "<group>"; };
+		1CFA88B6288B44A20072B991 /* ProfileOrderCellThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOrderCellThree.swift; sourceTree = "<group>"; };
+		1CFA88B8288B45220072B991 /* ProfileOrderCellFourth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOrderCellFourth.swift; sourceTree = "<group>"; };
+		1CFA88BA288B47D40072B991 /* HelpDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +81,21 @@
 				1CD41A3C288A908300C909F8 /* AppDelegate.swift */,
 				1CD41A3E288A908300C909F8 /* SceneDelegate.swift */,
 				1CD41A40288A908300C909F8 /* ViewController.swift */,
+				1CD41A50288A93BF00C909F8 /* HomeViewController.swift */,
+				1CD41A52288A93D200C909F8 /* CategoryViewController.swift */,
+				1C382F7C288AB5A000100827 /* CategoryCell.swift */,
+				1CD41A54288A93E500C909F8 /* OrderViewController.swift */,
+				1C382F7E288AD16300100827 /* OrderCell.swift */,
+				1CD41A56288A93F000C909F8 /* AccountViewController.swift */,
+				1CFA88B2288B38010072B991 /* AccountCell.swift */,
 				1CD41A42288A908300C909F8 /* Main.storyboard */,
 				1CD41A45288A908400C909F8 /* Assets.xcassets */,
 				1CD41A47288A908400C909F8 /* LaunchScreen.storyboard */,
 				1CD41A4A288A908400C909F8 /* Info.plist */,
+				1CFA88B4288B3B510072B991 /* ProfileOrderCell.swift */,
+				1CFA88B6288B44A20072B991 /* ProfileOrderCellThree.swift */,
+				1CFA88B8288B45220072B991 /* ProfileOrderCellFourth.swift */,
+				1CFA88BA288B47D40072B991 /* HelpDetailsCell.swift */,
 			);
 			path = TabBarDemo;
 			sourceTree = "<group>";
@@ -138,9 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFA88B9288B45220072B991 /* ProfileOrderCellFourth.swift in Sources */,
+				1CFA88BB288B47D40072B991 /* HelpDetailsCell.swift in Sources */,
+				1CD41A53288A93D200C909F8 /* CategoryViewController.swift in Sources */,
+				1CFA88B3288B38010072B991 /* AccountCell.swift in Sources */,
 				1CD41A41288A908300C909F8 /* ViewController.swift in Sources */,
+				1CFA88B7288B44A20072B991 /* ProfileOrderCellThree.swift in Sources */,
+				1CD41A57288A93F000C909F8 /* AccountViewController.swift in Sources */,
+				1CFA88B5288B3B510072B991 /* ProfileOrderCell.swift in Sources */,
+				1C382F7D288AB5A000100827 /* CategoryCell.swift in Sources */,
+				1C382F7F288AD16300100827 /* OrderCell.swift in Sources */,
 				1CD41A3D288A908300C909F8 /* AppDelegate.swift in Sources */,
 				1CD41A3F288A908300C909F8 /* SceneDelegate.swift in Sources */,
+				1CD41A51288A93BF00C909F8 /* HomeViewController.swift in Sources */,
+				1CD41A55288A93E500C909F8 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
